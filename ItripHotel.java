@@ -25,6 +25,8 @@ public class ItripHotel implements Serializable {
             private Long createdBy;
             private Date modifyDate;
             private Long modifiedBy;
+			
+			private int age;
 
             public void setId (Long  id){
                 this.id=id;
